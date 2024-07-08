@@ -1,0 +1,25 @@
+- Regressions plot (scatterplot (X,Y), regressions gerade, und 1 sigma CI regression mit gamma)
+- regression summary mit credibility intervalls für beta und gamma koeffizienten
+- AIC
+- BIC
+- R^2
+- adjusted R^2
+- F test durchführen 
+- Residuen standard error
+- Residuen quantile
+- effective sample size/ autocorrelation
+- gelman rubin statistik (raises flag when below threshold) plus new gelman rubin
+- formular zu likelihood implementation 
+- define summary method, add residual diagnostics
+- fix regression function + sanity check of results, add residuals,
+- start with plot functions on "bayes_hmc_reg" object
+- extend prediction method + test prediction method
+- initialisierung in hmc_simple_reg funktion integrieren
+
+# Notizen Lukas
+- regression funktion verallgemeinern
+- Methoden: AIC/BIC
+- print method regression object
+- robust predict function -> differention between univariat and multivariat case using X & Z
+- logLik method
+- setup function
