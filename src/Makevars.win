@@ -1,0 +1,2 @@
+CXXFLAGS += -fsanitize=thread -fno-omit-frame-pointer -g
+LDFLAGS += -fsanitize=thread

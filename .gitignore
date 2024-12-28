@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+man
+to_do06.09.Rmd
+aufgaben.Rmd
+<<<<<<< HEAD
+function_descriptions.csv
+=======
+.RDataTmp2
+fine_tune_testing.R
+>>>>>>> Origin/simulation-study

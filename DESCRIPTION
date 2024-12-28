@@ -1,0 +1,37 @@
+Package: asp24hmc
+Title: Hamiltonian Monte Carlo Regression Models
+Version: 0.0.0.9000
+Authors@R: c(
+    person(
+      given = "Lukas",
+      family = "Brüwer",
+      email = "lukas.bruewer@stud.uni-goettingen.de", 
+      role = c("aut", "cre")
+    ),
+    person(
+      given = "Arne",
+      family = "Tillmann",
+      email = "a.tillmann@stud.uni-goettingen.de", 
+      role = c("aut")
+    ),
+    person(
+      given = "Nils",
+      family = "Wüstefeld",
+      email = "nils.wuestefeld@stud.uni-goettingen.de", 
+      role = c("aut")
+    ))
+Description: Provides functionality for Hamiltonian Monte Carlo (HMC) regression models, 
+    including initialization, parameter estimation, and MCMC chain building. The package 
+    supports custom location and scale formulas, performs parameter fitting, and computes 
+    credible intervals. It integrates Rcpp for high-performance computations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    Rcpp (>= 1.0.0),
+    RcppEigen,
+    stats
+LinkingTo: 
+    Rcpp,
+    RcppEigen
